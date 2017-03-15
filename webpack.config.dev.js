@@ -7,6 +7,7 @@ export default {
      noInfo: false,
      entry: [
        'webpack-hot-middleware/client?reload=true', //note that it reloads the page if hot module reloading fails.
+       
        path.resolve(__dirname, 'src/index')
      ],
      target: 'web',
