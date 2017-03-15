@@ -7,6 +7,7 @@ class AboutPage extends Component {
             <div>
                 <h1>About</h1>
                 <p>Admin panel app, build with React and Redux</p>
+                <Link to='/' className='btn btn-prymary btn-lg'>Back home</Link>
             </div>
         );
     }
