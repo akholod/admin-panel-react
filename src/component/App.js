@@ -1,11 +1,12 @@
 import React, { Component, PropTypes } from 'react';
+import Header from './common/Header';
 import '../styles/main.scss';
 
 class App extends Component {
     render() {
         return (
             <div className='container'>
-                <h3>Header here</h3>
+                <Header />
                 {this.props.children}
             </div>
         );
